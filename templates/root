@@ -1,6 +1,6 @@
-{{define "begin"}} this is the default begin {{end}}
-{{define "end"}} this is the default end {{end}}
-{{define "inner"}} this is the default inner {{end}}
+{{define "begin"}} this is the default begin {{order}} {{end}}
+{{define "end"}} this is the default end {{order}} {{end}}
+{{define "inner"}} this is the default inner {{order}} {{end}}
 
 BEGIN: {{template "begin"}}
 
